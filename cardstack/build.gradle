@@ -70,7 +70,6 @@ install {
 dependencies {
   compile fileTree(dir: 'libs', include: ['*.jar'])
   compile "com.android.support:appcompat-v7:${rootProject.ext.SUPPORT_LIB_VERSION}"
-  compile "com.github.jgritman:httpbuilder:http-builder-0.7.2"
 }
 
 
